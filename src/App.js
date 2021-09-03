@@ -33,7 +33,7 @@ function App() {
     <div class="horn"><Horn/>
       <Minister/> 
     </div>
-    <Robot/>
+    {/* <Robot/> */}
     <Temp/>
     </div>
   );
