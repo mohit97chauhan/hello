@@ -1,0 +1,113 @@
+
+.header{
+    display: flex;
+    padding-left: 10cm ;
+}
+.headerb{
+    background-image: url("C:\Users\BALA JI\Desktop\asignment\3616.jpg");
+    height: 550px;
+    border-radius: 10% 10% 69% 30% / 0% 12% 80% 55%  ;
+}
+
+.navbar{
+    color: orange;
+    display:inline-block;
+    text-align: center;  
+}
+.navbar a link{
+color: azure;
+text-decoration: none;
+}
+.navbar a:visited {
+    color: rgb(221, 231, 224);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.dest{
+    background-color: rgb(248, 252, 252);
+    display: flex;
+}
+.dest a:visited {
+    color: rgb(102, 21, 233);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .dest a link{
+    color: rgb(54, 15, 226);
+    text-decoration:none;
+    }
+
+.bro{
+    padding-left: 10px;
+}
+.login {
+    background-color: #10ac32;
+    color: white;
+    padding-left: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border:none;
+    width: 100px;
+    height: 35px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  .game{
+      color:honeydew;
+      padding-left: 180px;
+      padding-top: 160px;
+      line-height: 10px;
+  }
+
+  #game{
+      color: honeydew;
+      background-color: green;
+      height:40px;
+      width: 90px;
+      border-radius: 10%;
+      border: none;
+  }
+
+  .horn{
+    padding-left: 4.5cm;
+    padding-top: 2cm;
+    color: black;
+    display: flex;
+    flex-direction:unset;
+  }
+
+ .serch {
+  background-color: #39bbdb;
+  margin: 3cm;
+  text-align: center;
+  border-radius: 15%;
+  height: 8cm;
+
+  }
