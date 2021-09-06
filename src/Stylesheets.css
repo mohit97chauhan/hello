@@ -4,7 +4,7 @@
     padding-left: 10cm ;
 }
 .headerb{
-    background-image: url("C:\Users\BALA JI\Desktop\asignment\3616.jpg");
+    background-image: url("3616.jpg");
     height: 550px;
     border-radius: 10% 10% 69% 30% / 0% 12% 80% 55%  ;
 }
@@ -30,6 +30,7 @@ text-decoration: none;
 .dest{
     background-color: rgb(248, 252, 252);
     display: flex;
+    padding-top: 1;
 }
 
 .dest a{
@@ -39,6 +40,7 @@ text-decoration: none;
     color: rgb(102, 21, 233);
     background-color: transparent;
     text-decoration: none;
+    padding-top: 1cm;
   }
   .dest a link{
     color: rgb(54, 15, 226);
@@ -111,7 +113,7 @@ text-decoration: none;
   }
 
  .serch {
-  background-image: url("C:\Users\BALA JI\Downloads\sky2.jpg") ;
+  background-image: url("sky2.jpg") ;
   margin: 3cm;
   text-align: center;
   border-radius: 15%;
@@ -120,15 +122,13 @@ text-decoration: none;
 
   .card{
     border-color: black;
-    background-image: url("C:\Users\BALA JI\Downloads\blog.png") ;
+    background-image: url("blog.png") ;
     color: cornsilk;
     border-radius: 5%;
   }
 
   .mars{
     display: inline-block;
-    
-
   }
 
  .last{
