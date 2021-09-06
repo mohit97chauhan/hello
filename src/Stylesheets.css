@@ -9,6 +9,9 @@
     border-radius: 10% 10% 69% 30% / 0% 12% 80% 55%  ;
 }
 
+.navbar a{
+  text-decoration: none;
+}
 .navbar{
     color: orange;
     display:inline-block;
@@ -27,6 +30,10 @@ text-decoration: none;
 .dest{
     background-color: rgb(248, 252, 252);
     display: flex;
+}
+
+.dest a{
+  text-decoration: none;
 }
 .dest a:visited {
     color: rgb(102, 21, 233);
@@ -83,7 +90,7 @@ text-decoration: none;
       color:honeydew;
       padding-left: 180px;
       padding-top: 160px;
-      line-height: 10px;
+      line-height: 40px;
   }
 
   #game{
@@ -104,10 +111,28 @@ text-decoration: none;
   }
 
  .serch {
-  background-color: #39bbdb;
+  background-image: url("C:\Users\BALA JI\Downloads\sky2.jpg") ;
   margin: 3cm;
   text-align: center;
   border-radius: 15%;
   height: 8cm;
+  }
+
+  .card{
+    border-color: black;
+    background-image: url("C:\Users\BALA JI\Downloads\blog.png") ;
+    color: cornsilk;
+    border-radius: 5%;
+  }
+
+  .mars{
+    display: inline-block;
+    
 
   }
+
+ .last{
+   
+   column-count: 3;
+   flex-direction: column;
+ }

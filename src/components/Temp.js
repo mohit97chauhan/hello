@@ -10,7 +10,7 @@ const Temp = () => {
 
     useEffect(() => {
         const fetchApi = async () => {
-            const url = `http://api.openweathermap.org/data/2.5/weather?q=${search}&appid=c8adc2e11020fe4632d874c57dc69c87`;
+            const url = `http://api.openweathermap.org/data/2.5/weather?q=${search}&unit=matric&appid=c8adc2e11020fe4632d874c57dc69c87`;
             axios.get(url).then(response => {
                 const respons = response.data
                try {
@@ -51,7 +51,7 @@ const Temp = () => {
             </div>
             </div>
         </div>
-    )
+    
             
         </div>
     )

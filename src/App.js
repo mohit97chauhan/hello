@@ -9,9 +9,11 @@ import Horn from './components/Horn';
 import Minister from './components/Minister';
 import Robot from './components/Robot';
 import Temp from './components/Temp';
+import CardGrow from './components/CardGrow';
+
 function App() {
   return (
-    <div>
+    <div >
     <div class='headerb'>
      <div class='header'>
     <span class='navbar'>
@@ -35,6 +37,10 @@ function App() {
     </div>
     {/* <Robot/> */}
     <Temp/>
+    <div class="last">
+    <CardGrow/>
+    </div>
+        
     </div>
   );
 }
